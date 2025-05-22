@@ -58,7 +58,7 @@
 
 ## 🐍 Snake de Contribuições
 
-![Snake animation](https://github.com/EduardoKeller/EduardoKeller/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/EduardoKeller/snk/output/github-contribution-grid-snake.svg)
 
 ---
 
