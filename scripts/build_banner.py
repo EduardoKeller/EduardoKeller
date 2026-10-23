@@ -55,7 +55,9 @@ def latest_ci_run(repo: str):
         return None, None
     run = runs[0]
     status = run.get("conclusion") or run.get("status")
-    when = datetime.fromisoformat(run["created_at"].replace("Z", "+00:00"))
+    # run_started_at changes on "Re-run"; created_at keeps the original push date
+    stamp = run.get("run_started_at") or run.get("updated_at") or run["created_at"]
+    when = datetime.fromisoformat(stamp.replace("Z", "+00:00"))
     return status, when
 
 
