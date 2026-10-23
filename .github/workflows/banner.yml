@@ -1,0 +1,43 @@
+name: Update profile banner
+
+on:
+  schedule:
+    - cron: "17 9 * * *"   # daily, 06:17 in Brasília
+  workflow_dispatch:
+  push:
+    paths:
+      - banner.json
+      - scripts/build_banner.py
+
+permissions:
+  contents: write
+
+jobs:
+  banner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check out the tests repo
+        run: git clone --depth 1 https://github.com/EduardoKeller/qa-portfolio _tests_repo
+
+      - name: Install the tests repo dependencies (no browsers needed to collect)
+        run: pip install -r _tests_repo/requirements.txt
+
+      - name: Build banner
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/build_banner.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add assets/banner.svg
+          git diff --cached --quiet || git commit -m "chore: update profile banner"
+          git push
