@@ -1,13 +1,15 @@
-<h1 align="center">Eduardo Keller</h1>
+<p align="center">
+  <img src="./assets/banner.svg" alt="Eduardo Keller — QA & Software Testing · LLM / AI Evaluation · Python. Live test count and CI status from qa-portfolio." width="100%">
+</p>
 
 <p align="center">
-  <strong>QA & Software Testing · LLM / AI Evaluation · Python</strong><br>
-  IT Analyst in Brazil · Bilingual (EN / pt-BR) · Open to remote roles
+  IT Analyst in Brazil · Bilingual (EN / pt-BR) · Open to remote roles<br>
+  <sub>The banner above is rebuilt daily by <a href="./scripts/build_banner.py">a Python script</a> in GitHub Actions, using real data from <a href="https://github.com/EduardoKeller/qa-portfolio">qa-portfolio</a>.</sub>
 </p>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/eduardo-p-keller"><img src="https://img.shields.io/badge/LinkedIn-eduardo--p--keller-0A66C2?style=flat-square&logo=linkedin"></a>
-  <a href="mailto:kellao.998@gmail.com"><img src="https://img.shields.io/badge/Email-kellao.998@gmail.com-555?style=flat-square&logo=maildotru&logoColor=white"></a>
+  <a href="mailto:kellao.998@gmail.com"><img src="https://img.shields.io/badge/Email-kellao.998%40gmail.com-555?style=flat-square&logo=gmail&logoColor=white"></a>
 </p>
 
 ---
@@ -28,7 +30,7 @@ Work remotely as a **QA / AI evaluation professional**, combining test disciplin
 
 | Now | Next | Then |
 |---|---|---|
-| Python course (118h, Hashtag Treinamentos) | ISTQB CTFL (Foundation Level) | ISTQB CT-GenAI (Testing with Generative AI) |
+| Python course, in progress (118h, Hashtag Treinamentos) | ISTQB CTFL (Foundation Level) | ISTQB CT-GenAI (Testing with Generative AI) |
 | Playwright + pytest practice (`qa-portfolio`) | `llm-eval-lab`: a pytest harness that scores LLM answers against rubrics | Public write-ups on pt-BR LLM failure patterns |
 
 ## Projects
