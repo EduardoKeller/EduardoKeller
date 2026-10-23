@@ -1,82 +1,52 @@
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=EduardoKeller&color=blue" alt="Visualizações" /> </p><h1 align="center">Olá, sou o Eduardo Keller 👋</h1>
+<h1 align="center">Eduardo Keller</h1>
 
 <p align="center">
-  Técnico em TI com experiência em <strong>suporte técnico, QA e desenvolvimento</strong>. Estudando <strong>Python, SQL, AWS e Machine Learning</strong>.  
-  Apaixonado por tecnologia, automação e soluções eficientes.
+  <strong>QA & Software Testing · LLM / AI Evaluation · Python</strong><br>
+  IT Analyst in Brazil · Bilingual (EN / pt-BR) · Open to remote roles
 </p>
 
 <p align="center">
-  <a href="mailto:e.p.keller@hotmail.com"><img src="https://img.shields.io/badge/Email-e.p.keller@hotmail.com-blue?style=flat-square&logo=gmail"></a>
-  <a href="https://linkedin.com/in/eduardo-pasquali-keller-95818023a"><img src="https://img.shields.io/badge/LinkedIn-Eduardo%20Keller-blue?style=flat-square&logo=linkedin"></a>
-  <a href="https://github.com/EduardoKeller"><img src="https://img.shields.io/github/followers/EduardoKeller?style=social"></a>
-</p>
-
----
-
-## 👨‍💻 Sobre mim
-
-- 🎯 Foco em **Python**, **SQL**, **cloud computing (AWS)** e **Machine Learning**
-- 🛠 Experiência em **suporte técnico (N1/N2)** e **QA/manual testing**
-- 💻 Já atuei com **React, Java, Flutter, Quarkus**
-- 📈 Em constante evolução: aprendendo tecnologias modernas e práticas DevOps
-- 🌐 Gosto de aprender com projetos práticos, código limpo e soluções escaláveis
-
----
-
-## 🧰 Tecnologias e Ferramentas
-
-<div align="center">
-  <img alt="Python" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg">
-  <img alt="JavaScript" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg">
-  <img alt="HTML" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
-  <img alt="CSS" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
-  <img alt="PostgreSQL" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg">
-  <img alt="Java" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg">
-  <img alt="React" height="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
-  <img alt="Flutter" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg">
-  <img alt="Lua" height="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/lua/lua-original.svg">
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EduardoKeller&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EduardoKeller&layout=compact&langs_count=8&theme=dracula"/>
-</div>
-
----
-
-## 🏆 Conquistas no GitHub
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=EduardoKeller&theme=dracula&column=4&margin-w=15&margin-h=15"/>
+  <a href="https://www.linkedin.com/in/eduardo-p-keller"><img src="https://img.shields.io/badge/LinkedIn-eduardo--p--keller-0A66C2?style=flat-square&logo=linkedin"></a>
+  <a href="mailto:kellao.998@gmail.com"><img src="https://img.shields.io/badge/Email-kellao.998@gmail.com-555?style=flat-square&logo=maildotru&logoColor=white"></a>
 </p>
 
 ---
 
-## 🐍 Snake de Contribuições
+## What I do
 
-![Snake animation](https://raw.githubusercontent.com/EduardoKeller/snk/output/github-contribution-grid-snake.svg)
+I find what is wrong, why it is wrong, and explain it clearly.
+That started in software QA, continued in bilingual technical support and ERP systems analysis, and now points at two things:
+
+- **Software testing** — manual testing, test cases, bug reports, and test automation with Playwright + pytest.
+- **LLM / AI evaluation** — judging AI outputs for accuracy, instruction-following, hallucinations and safety, especially in Brazilian Portuguese.
+
+I build small projects with AI assistance, and I verify AI-generated code before I trust it.
+
+## Goal
+
+Work remotely as a **QA / AI evaluation professional**, combining test discipline with LLM evaluation.
+
+| Now | Next | Then |
+|---|---|---|
+| Python course (118h, Hashtag Treinamentos) | ISTQB CTFL (Foundation Level) | ISTQB CT-GenAI (Testing with Generative AI) |
+| Playwright + pytest practice (`qa-portfolio`) | `llm-eval-lab`: a pytest harness that scores LLM answers against rubrics | Public write-ups on pt-BR LLM failure patterns |
+
+## Projects
+
+| Project | What it shows | Stack |
+|---|---|---|
+| [qa-portfolio](https://github.com/EduardoKeller/qa-portfolio) | UI test automation with Page Object Model, parametrized tests, tracing and CI on every push | Python · Playwright · pytest · GitHub Actions |
+| VOD Highlight Agent | An LLM in the loop: signal analysis finds clip candidates, the model approves clips and writes titles | Python · ffmpeg · NumPy/SciPy · LLM API |
+| ServiceDesk | Ticketing app with JWT login, attachments and email notifications; debugged a multi-cause production failure end to end | FastAPI · React · PostgreSQL |
+| Trippo — [live demo](https://trippo-rc.vercel.app/presentation) | Corporate travel, expense and reimbursement workflows with approvals (demo uses fictional data) | Next.js · TypeScript |
+| Trippo Ponto — [live demo](https://trippo-ponto-ipz2.vercel.app/presentation) | Time-and-attendance app with employee and admin views, tested with Playwright and real users | Next.js · TypeScript |
+
+## Skills, honestly
+
+- **Daily use:** manual testing (functional, regression, acceptance) · test cases · bug reports with reproduction steps · fix validation · troubleshooting and root-cause diagnosis · technical documentation
+- **Working knowledge:** Python · SQL · TypeScript · React / Next.js · FastAPI · PostgreSQL · Git · Playwright · pytest · LLM APIs
+- **Learning now:** LLM evaluation (rubrics, preference ranking, hallucination detection, RLHF concepts) · ISTQB foundations
 
 ---
 
-## 🚀 Projetos em Destaque
-
-- 🔧 [Script de automação em Python](https://github.com/EduardoKeller/nomedoprojeto)
-- 🧪 [Sistema de testes automatizados com Selenium](https://github.com/EduardoKeller/nomedoprojeto)
-- 📦 [API em Java com Quarkus](https://github.com/EduardoKeller/nomedoprojeto)
-
----
-
-## 📬 Entre em contato
-
-📧 e.p.keller@hotmail.com  
-🔗 [LinkedIn](https://linkedin.com/in/eduardo-pasquali-keller-95818023a)  
-💻 [GitHub](https://github.com/EduardoKeller)  
-🎮 Discord: @keller5034
-
-
----
-
+<sub>🇧🇷 Analista de TI em Santa Cruz do Sul (RS). Foco em QA, automação de testes com Python e avaliação de modelos de linguagem (LLM) em português.</sub>
