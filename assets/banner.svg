@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="860" height="310" viewBox="0 0 860 310" role="img" aria-label="Eduardo Keller — QA &amp; Software Testing · LLM / AI Evaluation · Python. ✔ 14 tests collected, CI status unavailable.">
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="310" viewBox="0 0 860 310" role="img" aria-label="Eduardo Keller — QA &amp; Software Testing · LLM / AI Evaluation · Python. ✔ 14 tests collected, CI passed · 16 Oct 2026.">
   <style>
     text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace; font-size: 15px; fill: #e6edf3; }
     .name { font-size: 30px; font-weight: 700; fill: #ffffff; }
@@ -15,7 +15,7 @@
   <text x="32" y="100" class="ln" style="animation-delay:0.4s"><tspan class="name">Eduardo Keller</tspan></text>
   <text x="32" y="128" class="ln" style="animation-delay:0.8s"><tspan fill="#79c0ff">QA &amp; Software Testing · LLM / AI Evaluation · Python</tspan></text>
   <text x="32" y="168" class="ln" style="animation-delay:1.2s"><tspan fill="#3fb950">keller@github</tspan><tspan fill="#8b949e">:~$ </tspan>pytest qa-portfolio --collect-only</text>
-  <text x="32" y="192" class="ln" style="animation-delay:1.6s"><tspan fill="#3fb950">✔ 14 tests collected</tspan><tspan fill="#8b949e">   ·   </tspan><tspan fill="#d29922">CI status unavailable</tspan></text>
+  <text x="32" y="192" class="ln" style="animation-delay:1.6s"><tspan fill="#3fb950">✔ 14 tests collected</tspan><tspan fill="#8b949e">   ·   </tspan><tspan fill="#3fb950">CI passed · 16 Oct 2026</tspan></text>
   <text x="32" y="232" class="ln" style="animation-delay:2.0s"><tspan fill="#3fb950">keller@github</tspan><tspan fill="#8b949e">:~$ </tspan>cat roadmap.txt</text>
   <text x="32" y="256" class="ln" style="animation-delay:2.4s"><tspan fill="#8b949e">now </tspan>Python course (in progress)<tspan fill="#8b949e">  ▸  next </tspan>ISTQB CTFL<tspan fill="#8b949e">  ▸  then </tspan>ISTQB CT-GenAI</text>
   <rect class="cur" x="32" y="272" width="9" height="17" fill="#e6edf3"/>
