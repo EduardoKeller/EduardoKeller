@@ -19,5 +19,5 @@
   <text x="32" y="232" class="ln" style="animation-delay:2.0s"><tspan fill="#3fb950">keller@github</tspan><tspan fill="#8b949e">:~$ </tspan>cat roadmap.txt</text>
   <text x="32" y="256" class="ln" style="animation-delay:2.4s"><tspan fill="#8b949e">now </tspan>Python course (in progress)<tspan fill="#8b949e">  ▸  next </tspan>ISTQB CTFL<tspan fill="#8b949e">  ▸  then </tspan>ISTQB CT-GenAI</text>
   <rect class="cur" x="32" y="272" width="9" height="17" fill="#e6edf3"/>
-  <text x="828" y="294" text-anchor="end" class="foot">updated 23 Oct 2026 16:15 UTC by a Python script · GitHub Actions</text>
+  <text x="828" y="294" text-anchor="end" class="foot">updated 23 Oct 2026 16:18 UTC by a Python script · GitHub Actions</text>
 </svg>
