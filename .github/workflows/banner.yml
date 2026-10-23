@@ -2,7 +2,7 @@ name: Update profile banner
 
 on:
   schedule:
-    - cron: "17 9 * * *"   # daily, 06:17 in Brasília
+    - cron: "*/30 * * * *"   # every 30 minutes
   workflow_dispatch:
   push:
     paths:

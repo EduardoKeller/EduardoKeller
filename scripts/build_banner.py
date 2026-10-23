@@ -117,7 +117,7 @@ def build_svg(tests, ci_status, ci_date, now) -> str:
   <circle cx="24" cy="22" r="6" fill="#f85149"/><circle cx="44" cy="22" r="6" fill="#d29922"/><circle cx="64" cy="22" r="6" fill="#3fb950"/>
 {body}
   <rect class="cur" x="32" y="272" width="9" height="17" fill="#e6edf3"/>
-  <text x="828" y="294" text-anchor="end" class="foot">generated {fmt_date(now)} by a Python script · GitHub Actions</text>
+  <text x="828" y="294" text-anchor="end" class="foot">updated {now.strftime("%d %b %Y %H:%M")} UTC by a Python script · GitHub Actions</text>
 </svg>
 '''
 
